@@ -11,12 +11,12 @@
 #include <string>
 #include <vector>
 
-using namespace std;
+#define maxCharacter 10;
 
+using namespace std;
 namespace ariel {
     class Team{
     public:
-        int maxCharacter = 10;
         Team(const Character *captain);
         virtual ~Team();
         Team(const Team &other);
